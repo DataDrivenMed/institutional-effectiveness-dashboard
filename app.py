@@ -1,7 +1,7 @@
 """
 Enterprise Institutional Effectiveness Dashboard
 A decision-support tool for academic medical center leadership.
-Built by Per Nilsson | Director, Accreditation & Strategic Planning
+Built by Per Ram Paragi | Director, Accreditation & Strategic Planning
 """
 
 import streamlit as st
@@ -757,6 +757,6 @@ with tab_comp:
 st.markdown(f"""
 <div class="dashboard-footer">
     Enterprise Institutional Effectiveness Dashboard  ·  Demonstration with synthetic data<br>
-    Built by Per Nilsson  ·  Director, Accreditation & Strategic Planning  ·  {datetime.now().year}
+    Built by Per Ram Paragi  ·  Director, Accreditation & Strategic Planning  ·  {datetime.now().year}
 </div>
 """, unsafe_allow_html=True)
